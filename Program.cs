@@ -1,3 +1,5 @@
 ﻿using DesafioPOO.Models;
 
-// TODO: Realizar os testes com as classes Nokia e Iphone
+Nokia nokia = new Nokia("123456", "Nokia", "asd-123", 64);
+nokia.Ligar();
+nokia.InstalarAplicativo("Whatsapp");
